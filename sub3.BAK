@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>秋篠寺</title>
+<meta name="description" content="秋篠寺の魅力" />
+<meta name="keywords" content="秋篠寺,伝伎芸天立像,伝帝釈天立像,伝梵天立像" />
+<link href="css/temple21.css" rel="stylesheet" type="text/css" />
+<meta name="author" content="Hideaki Okamoto">
+<meta name="copyright" content="Hideaki Okamoto">
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1><a href="index.html">Web/XML演習 15x3026 岡本秀明</a></h1>
+<p id="logo"><a href="index.html"><img src="images/logo.png" alt="" width="130" height="59" /></a></p>
+</div>
+<!--/header-->
+
+<div id="mainimg">
+<img src="images/img_03.jpg" alt="伝梵天立像" width="1000" height="150" />
+<ul id="menu">
+<li><a href="index.html"><img src="images/menu_top.png" alt="TOP" name="Image4" width="230" height="54" id="Image4" onmouseover="MM_swapImage('Image4','','images/menu_on_top.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub1.html"><img src="images/menu_01.png" alt="伝伎芸天立像" name="Image1" width="230" height="54" id="Image1" onmouseover="MM_swapImage('Image1','','images/menu_on_01.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub2.html"><img src="images/menu_02.png" alt="伝帝釈天立像" name="Image2" width="230" height="54" id="Image2" onmouseover="MM_swapImage('Image2','','images/menu_on_02.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub3.html"><img src="images/menu_on_03.png" alt="伝梵天立像" name="Image3" width="230" height="54" id="Image3" onmouseover="MM_swapImage('Image3','','images/menu_on_03.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+</ul>
+</div>
+
+
+<div id="contents">
+
+<div id="link">
+<div class="box1 mb1em">
+<h3>Link</h3>
+<ul class="submenu">
+<table class="infobox" style="width:22em; width:250px">
+<nav>
+<li><a href="../temple01/index.html">東大寺南大門・大仏殿</a></li>
+<li><a href="../temple02/index.html">東大寺・法華堂</a></li>
+<li><a href="../temple03/index.html">東大寺・戒壇堂ほか</a></li>
+<li><a href="../temple04/index.html">興福寺・国宝館</a></li>
+<li><a href="../temple05/index.html">興福寺・北円堂</a></li>
+<li><a href="../temple06/index.html">興福寺・東金堂</a></li>
+<li><a href="../temple07/index.html">興福寺・南円堂</a></li>
+<li><a href="../temple08/index.html">新薬師寺</a></li>
+<li><a href="../temple09/index.html">薬師寺</a></li>
+<li><a href="../temple10/index.html">唐招提寺・金堂</a></li>
+<li><a href="../temple11/index.html">唐招提寺・御影堂ほか</a></li>
+<li><a href="../temple12/index.html">法隆寺・金堂</a></li>
+<li><a href="../temple13/index.html">法隆寺・講堂ほか</a></li>
+<li><a href="../temple14/index.html">法隆寺・大宝蔵殿</a></li>
+<li><a href="../temple15/index.html">法隆寺・夢殿ほか</a></li>
+<li><a href="../temple17/index.html">白毫寺</a></li>
+<li><a href="../temple18/index.html">大安寺</a></li>
+<li><a href="../temple19/index.html">円照寺・法華寺</a></li>
+<li><a href="../temple20/index.html">西大寺</a></li>
+<li><a href="../temple21/index.html">秋篠寺</a></li>
+</nav>
+</table>
+</ul>
+</div>
+<!--/box1-->
+
+</div>
+<!--/link-->
+
+<div id="main2">
+<h2>伝梵天立像</h2>
+<p>　帝釈天の右側にいる仏様で、よく帝釈天と一緒にいます。仏教の教えを守護する神で、釈迦に悟りの内容を広めることを勧めたと言われています。<br>
+　<br>　梵天は、古代インドの神で、この世のあらゆるものを創造した「ブラフマー（ブラフマン）」が仏教に取り入れられたものです。サンスクリット語のことを梵語と呼びますが、これは梵天が作った言葉だとされているためです。<br>
+
+　<br>　元来の梵天は、４面の顔を持ち、４つ手を持ち、さらに４匹のガチョウの上の蓮花台で与願印を組みながら座っています。<br>
+　<br>　本来、梵天はガチョウに乗っている珍しい、少し変わった仏様です。ちなみに、梵天の存在が知られた頃は、顔が１つで腕が２つだったそうです。<br>
+
+　<br>　梵天は、「色界」の「初禅点（しょぜんてん）」に存在する仏様です。密教のおいては、１２尊の１尊とされています。一説では、梵天は「ブラフマー（ブラフマン）」と同一の仏様と云われております。<br><br></p>
+
+<img src="images/main4.jpg" width="480" height="300">
+
+</div>
+<!--/main2-->
+
+<p id="pagetop"><a href="#container"><img src="images/pagetop.gif" width="140" height="30" alt="ページの上部へ" /></a></p
+
+<!--/contents-->
+
+</div>
+<!--/container-->
+
+<div id="footer">
+Copyright&copy; 2016 Hideaki Okamoto All Rights Reserved.<br />
+</div>
+<!--/footer-->
+
+</body>
+</html>

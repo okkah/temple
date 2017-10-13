@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>秋篠寺</title>
+<meta name="description" content="秋篠寺の魅力" />
+<meta name="keywords" content="秋篠寺,伝伎芸天立像,伝帝釈天立像,伝梵天立像" />
+<link href="css/temple21.css" rel="stylesheet" type="text/css" />
+<meta name="author" content="Hideaki Okamoto">
+<meta name="copyright" content="Hideaki Okamoto">
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1><a href="index.html">Web/XML演習 15x3026 岡本秀明</a></h1>
+<p id="logo"><a href="index.html"><img src="images/logo.png" alt="" width="130" height="59" /></a></p>
+</div>
+<!--/header-->
+
+<div id="mainimg">
+<img src="images/img_01.jpg" alt="伝伎芸天立像" width="1000" height="150" />
+<ul id="menu">
+<li><a href="index.html"><img src="images/menu_top.png" alt="TOP" name="Image4" width="230" height="54" id="Image4" onmouseover="MM_swapImage('Image4','','images/menu_on_top.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub1.html"><img src="images/menu_on_01.png" alt="伝伎芸天立像" name="Image1" width="230" height="54" id="Image1" onmouseover="MM_swapImage('Image1','','images/menu_on_01.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub2.html"><img src="images/menu_02.png" alt="伝帝釈天立像" name="Image2" width="230" height="54" id="Image2" onmouseover="MM_swapImage('Image2','','images/menu_on_02.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub3.html"><img src="images/menu_03.png" alt="伝梵天立像" name="Image3" width="230" height="54" id="Image3" onmouseover="MM_swapImage('Image3','','images/menu_on_03.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+</ul>
+</div>
+
+<div id="contents">
+
+<div id="link">
+<div class="box1 mb1em">
+<h3>Link</h3>
+<ul class="submenu">
+<table class="infobox" style="width:22em; width:250px">
+<nav>
+<li><a href="../temple01/index.html">東大寺南大門・大仏殿</a></li>
+<li><a href="../temple02/index.html">東大寺・法華堂</a></li>
+<li><a href="../temple03/index.html">東大寺・戒壇堂ほか</a></li>
+<li><a href="../temple04/index.html">興福寺・国宝館</a></li>
+<li><a href="../temple05/index.html">興福寺・北円堂</a></li>
+<li><a href="../temple06/index.html">興福寺・東金堂</a></li>
+<li><a href="../temple07/index.html">興福寺・南円堂</a></li>
+<li><a href="../temple08/index.html">新薬師寺</a></li>
+<li><a href="../temple09/index.html">薬師寺</a></li>
+<li><a href="../temple10/index.html">唐招提寺・金堂</a></li>
+<li><a href="../temple11/index.html">唐招提寺・御影堂ほか</a></li>
+<li><a href="../temple12/index.html">法隆寺・金堂</a></li>
+<li><a href="../temple13/index.html">法隆寺・講堂ほか</a></li>
+<li><a href="../temple14/index.html">法隆寺・大宝蔵殿</a></li>
+<li><a href="../temple15/index.html">法隆寺・夢殿ほか</a></li>
+<li><a href="../temple17/index.html">白毫寺</a></li>
+<li><a href="../temple18/index.html">大安寺</a></li>
+<li><a href="../temple19/index.html">円照寺・法華寺</a></li>
+<li><a href="../temple20/index.html">西大寺</a></li>
+<li><a href="../temple21/index.html">秋篠寺</a></li>
+</nav>
+</table>
+</ul>
+</div>
+<!--/box1-->
+
+</div>
+<!--/link-->
+
+<div id="main2">
+<h2>伝伎芸天立像</h2>
+<p>　伎芸といえば、技芸天。絵であろうが、音楽であろうが、俳句であろうが、踊りだろうが…技芸に関することなら何でも得意な女神です。芸事を習っている方は、お参りすれば、それが習い事が上手くなるなどとも言いますね。<br>
+
+　<br>　もっとも、最近、昔に比べて、芸事って増えていますからね…。しっかり対応してくれているのか不安ですが。例えば…　易しいパソコン教室なども対応してくれるのか？ほか、新体操やら、絵も現代芸術…パフォーマンスになってくると、技芸天も困ってくるような気がします。もっとも、実はノリノリかもしれませんが。<br>
+
+　<br>　さて、技芸天の生まれ故郷は…　シヴァ神（摩醯首羅天or大自在天）の髪の生え際からといわれています。シヴァが髪の毛に毛生え薬をかけたときに、技芸天がもっさりと…というのは ウソで、彼が、音楽に興じているときに、彼の髪の生え際から現れ、見事な演 奏をしたのだとか。<br>
+
+　<br>　日本での有名な像は、秋篠寺の像です。といいますか、これしかないんですよ。<br>
+
+　<br>　実はこの像、頭部のみが天平時代に作られた脱活乾漆像で、体の方は鎌倉時代に 修理で作られた木彫だったりします。うま～く、修理しているんで、見所の１つではありますよ。（※因みに説明しとくと、脱活乾漆というのは漆の張り子みたいなモノです。）秋篠寺の技芸天は東洋のミューズなどと呼んだりする人もいて、評判高いんですが、まぁ、確かに魅力的な像なんです。でも、天平時代の像が全く壊れずに残っていたらと考えると…どうなのかなって 思うんですよ。<br>
+
+　<br>　多分、それでも、すごく良い像には違いないんですけど、もしかしたら、修理さ れた現存している像には魅力的には劣るかもしれないって思うんですね。人って、完全に端正なモノにも惹かれるけど、ちょっとだけ違和感があるものに 魅力を感じる…親近感を感じるっていうところがあるんです。結局、比べることは不可能だし、意味もないんだけど、そういうことを考えなが ら、みてみると、より楽しめる像であるのは間違いないです。<br>
+
+　<br>　さらに、言わなくてもいい蛇足を１つ…。技芸天の姿は※経軌に拠れば左手に一天華を持ち右手は下に下ろし衣を捻ると記 述されており、秋篠寺の技芸天はその点からいって、すでに、技芸天でない可能 性があります。（※経軌…仏像の形マニュアル集）<br>
+
+　<br>　さらに、技芸天の作例が他には無い！　…日本に１体だけ技芸天が現存しているっておかしな話だと思いませんか？しかも、この像の当初部分は頭だけです。
+つまり、この像は技芸天である可能性は限りなく低いのです。とはいえ、みんなが技芸天と思えば、いつまでも技芸天ということになってるというのもこの世の真実かと思います。<br><br></p>
+
+<input type="radio" id="r1" name="gal">
+<input type="radio" id="r2" name="gal">
+<input type="radio" id="r3" name="gal">
+<input type="radio" id="r4" name="gal">
+<input type="radio" id="r5" name="gal">
+<input type="radio" id="r6" name="gal">
+<input type="radio" id="r7" name="gal">
+<div id="thumbs">
+  <label for="r1"><img src="images/main2_1.jpg" width="100" height="160"></label>
+  <label for="r2"><img src="images/main2_2.jpg" width="100" height="160"></label>
+  <label for="r3"><img src="images/main2_3.jpg" width="100" height="160"></label>
+  <label for="r4"><img src="images/main2_4.jpg" width="100" height="160"></label>
+  <label for="r5"><img src="images/main2_5.jpg" width="100" height="160"></label>
+</div>
+<div id="frame">
+<div id="photo1"><img src="images/main2_1.jpg" width="300" height="400"></div>
+<div id="photo2"><img src="images/main2_2.jpg" width="300" height="400"></div>
+<div id="photo3"><img src="images/main2_3.jpg" width="300" height="400"></div>
+<div id="photo4"><img src="images/main2_4.jpg" width="300" height="400"></div>
+<div id="photo5"><img src="images/main2_5.jpg" width="300" height="400"></div>
+<div id="close_btn"><label for="r6">X 閉じる</label></div>  </div>
+<label for="r7"><div id="darkscreen"></div></label>
+
+</div>
+<!--/main2-->
+
+<p id="pagetop"><a href="#container"><img src="images/pagetop.gif" width="140" height="30" alt="ページの上部へ" /></a></p
+
+<!--/contents-->
+
+</div>
+<!--/container-->
+
+<div id="footer">
+Copyright&copy; 2016 Hideaki Okamoto All Rights Reserved.<br />
+</div>
+<!--/footer-->
+
+</body>
+</html>

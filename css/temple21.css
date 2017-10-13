@@ -1,0 +1,388 @@
+@charset "shift_jis";
+
+body {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font: 13px/2 "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro";/*文字サイズ/行間、フォント*/
+	background: #FFF url(../images/bg.gif) repeat-x center top;	/*背景色、背景画像の読み込み＆X軸(横軸)リピート＆上部に配置*/
+	color: #695C3E;
+}
+body#top {
+	background: #FFF url(../images/bg_top.gif) repeat-x center top;	/*トップページの背景の設定*/
+}
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+ul{
+	list-style-type: none;
+}
+img {
+	border: none;
+}
+input,textarea,select {
+	font-size: 1em;
+}
+form {
+	margin: 0px;
+}
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}
+
+/*リンク（全般）設定
+---------------------------------------------------------------------------*/
+a {
+	color: #695C3E;	/*リンクテキストの文字色*/
+}
+a:hover {
+	text-decoration: none;	/*マウスオン時に下線を消す設定。消さないならこの１行削除。*/
+	color: #3D3423;			/*マウスオン時のリンクテキストの文字色*/
+}
+
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	text-align: left;
+	width: 1000px;	/*コンテナー幅*/
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*ヘッダー（ロゴなどが入っているブロック）
+---------------------------------------------------------------------------*/
+#header {
+	text-align: left;
+	height: 90px;	/*ヘッダーの高さ*/
+	width: 100%;
+	position: relative;
+}
+/*ロゴ画像設定*/
+#header #logo {
+	position: absolute;
+	left: 0px;	/*ヘッダーブロックに対して左から0pxの位置に配置*/
+	top: 20px;	/*ヘッダーブロックに対して上から20pxの位置に配置*/
+	z-index:4;
+}
+/*「ご予約・お問い合わせ」ボタン設定*/
+#header #contact {
+	position: absolute;
+	top: 6px;	/*ヘッダーブロックに対して上から6pxの位置に配置*/
+	right: 0px;	/*ヘッダーブロックに対して右から0pxの位置に配置*/
+}
+/*h1見出しタグ設定*/
+#header h1 {
+	font-size: 9px;	/*文字サイズ*/
+	font-weight: normal;
+	position: absolute;
+	right: 5px;		/*ヘッダーブロックに対して右から5pxの位置に配置*/
+	bottom: 3px;	/*ヘッダーブロックに対して下から3pxの位置に配置*/
+	color: #AB9B77;	/*文字色*/
+}
+#header h1 a {
+	text-decoration: none;
+	color: #AB9B77;	/*文字色*/
+}
+
+/*メインメニュー
+---------------------------------------------------------------------------*/
+ul#menu {
+	position: absolute;
+	width: 975px;
+	height: 54px;
+	left: 0px;		/*mainimgブロックに対して左から0pxの位置に配置*/
+	bottom: 0px;	/*mainimgブロックに対して下から0pxの位置に配置*/
+	z-Index: 3;
+	padding-left: 25px;
+}
+ul#menu li {
+	float: left;
+	margin-right: 10px;	/*メニュー同士の余白*/
+}
+
+/*コンテンツ（mainとsubを囲むブロック）
+---------------------------------------------------------------------------*/
+#contents {
+	clear: left;
+	width: 100%;	/*コンテンツ幅*/
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 40px;	/*mainimgとコンテンツの余白*/
+}
+
+/*リンクコンテンツ
+---------------------------------------------------------------------------*/
+#link {
+	float: left;	/*サブコンテンツを右(right)に回り込み*/
+	width: 20%;	/*サブコンテンツ幅*/
+	padding-bottom: 30px;
+	margin-right: 10px;
+}
+/*h3タグ設定*/
+#link h3 {
+	font-size: 100%;	/*文字サイズ*/
+	padding: 10px;		/*余白*/
+	border-bottom: 5px solid #3D3423;	/*下部の線の幅、線種、色*/
+	background: #907E56 url(../images/bg1.gif) repeat-x left top;	/*背景色、背景画像の読み込み＆X軸(横軸)リピート＆上部に配置*/
+	color: #FFF;	/*文字色*/
+}
+/*段落タグの余白設定*/
+#link p {
+	padding: 0.5em 0px 1em;	/*左から、上、左右、下への余白*/
+}
+/*サブコンテンツ内のbox1設定*/
+#link .box1 {
+	background: #d5cdbc;		/*背景色*/
+	padding: 5px;				/*ボックス内の余白*/
+	border: 1px solid #c4bdad;	/*枠線の幅、線種、色*/
+}
+
+/*メインコンテンツ
+---------------------------------------------------------------------------*/
+#main {
+	float: left;	/*メインコンテンツを左(left)に回り込み*/
+	width: 50%;	/*メインコンテンツ幅*/
+	padding-bottom: 30px;
+	margin-right: 10px;
+}
+/*h2タグ設定*/
+#main h2 {
+	font-size: 14px;	/*文字サイズ*/
+	clear: both;
+	width: 98%;
+	line-height: 44px;
+	height: 42px;
+	padding: 0px 0px 0px 10px;	/*左から、上、右、下、左への余白*/
+	background: url(../images/midashi_bg1.gif) no-repeat;	/*背景画像の読み込み*/
+	border-bottom: 5px solid #907E56;	/*下部の線の幅、線種、色*/
+}
+/*段落タグの余白設定*/
+#main p {
+	padding: 0.5em 10px 1em;	/*左から、上、左右、下への余白*/
+	background: #FFF;
+}
+/*段落タグ内で幅をコンテンツ一杯に使う為のスタイル*/
+#main p.img {
+	padding: 0.5em 0px 1em;
+}
+
+/*メインコンテンツ２
+---------------------------------------------------------------------------*/
+#main2 {
+	float: left;	/*メインコンテンツを左(left)に回り込み*/
+	width: 65%;	/*メインコンテンツ幅*/
+	padding-bottom: 30px;
+	margin-left: 30px;
+}
+/*h2タグ設定*/
+#main2 h2 {
+	font-size: 14px;	/*文字サイズ*/
+	clear: both;
+	width: 100%;
+	line-height: 44px;
+	height: 42px;
+	padding: 0px 0px 0px 10px;	/*左から、上、右、下、左への余白*/
+	background: url(../images/midashi_bg1.gif) no-repeat;	/*背景画像の読み込み*/
+	border-bottom: 5px solid #907E56;	/*下部の線の幅、線種、色*/
+}
+/*段落タグの余白設定*/
+#main2 p {
+	padding: 0.5em 10px 1em;	/*左から、上、左右、下への余白*/
+	background: #FFF;
+}
+/*段落タグ内で幅をコンテンツ一杯に使う為のスタイル*/
+#main2 p.img {
+	padding: 0.5em 0px 1em;
+}
+
+/*サブコンテンツ
+---------------------------------------------------------------------------*/
+#sub {
+	float: left;	/*サブコンテンツを右(right)に回り込み*/
+	width: 28%;	/*サブコンテンツ幅*/
+	padding-bottom: 30px;
+}
+/*h3タグ設定*/
+#sub h3 {
+	font-size: 100%;	/*文字サイズ*/
+	padding: 10px;		/*余白*/
+	border-bottom: 5px solid #3D3423;	/*下部の線の幅、線種、色*/
+	background: #907E56 url(../images/bg1.gif) repeat-x left top;	/*背景色、背景画像の読み込み＆X軸(横軸)リピート＆上部に配置*/
+	color: #FFF;	/*文字色*/
+}
+/*段落タグの余白設定*/
+#sub p {
+	padding: 0.5em 0px 1em;	/*左から、上、左右、下への余白*/
+}
+/*サブコンテンツ内のbox1設定*/
+#sub .box1 {
+	background: #d5cdbc;		/*背景色*/
+	padding: 5px;				/*ボックス内の余白*/
+	border: 1px solid #c4bdad;	/*枠線の幅、線種、色*/
+}
+
+/*トップページのスライドショー
+---------------------------------------------------------------------------*/
+#mainimg {
+	position: relative;
+	height: 150px;	/*スライドショー画像の高さ*/
+	width: 1000px;	/*スライドショー画像の幅*/
+}
+#top #mainimg {
+	height: 300px;	/*トップページのスライドショー画像の高さ*/
+}
+#mainimg .slide_file {
+	display: none;
+}
+#slide_image {
+	z-Index: 2;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+#slide_image2 {
+	z-Index: 1;
+	position: absolute;
+	left:0px;
+	top:0px;
+}
+
+/*フッター
+---------------------------------------------------------------------------*/
+#footer {
+	clear: both;
+	width: 100%;
+	text-align: center;	/*文字をセンタリング*/
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 0.2em;	/*文字間を少しあける設定。通常がいいならこの１行削除。*/
+	font-size: 11px;		/*文字サイズ*/
+	background: #695C3E;	/*背景色*/
+	color: #FFF;			/*文字色*/
+}
+#footer a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*その他
+---------------------------------------------------------------------------*/
+.look {
+	background-color: #D5CDBC;
+}
+.mb1em {
+	margin-bottom: 1em;
+}
+.clear {
+	clear: both;
+}
+ul.disc {
+	padding: 0em 25px 1em;
+	list-style: disc;
+}
+.color1 {
+	color: #D89939;
+}
+.pr {
+	font-size: 10px;
+}
+p#pagetop {
+	text-align: right;
+	clear: both;
+	width: 100%;
+}
+.btn {
+	font-size: 13px;
+}
+.wl {
+	width: 96%;
+}
+.ws {
+	width: 50%;
+}
+.c {
+	text-align: center;
+}
+.pt0 {
+	padding-top: 0px !important;
+}
+/*ラジオボタンを非表示に*/
+#r1, #r2, #r3, #r4, #r5,#r6,#r7 {
+	display: none;
+}
+/*全サムネイルのコンテナー*/
+#thumbs {
+	position: relative;
+	width: 630px;
+	left: 20px;
+	margin:0 auto;
+}
+/*サムネイルのマウスオーバーでポインターを手のひら*/
+#thumbs label img {
+	cursor: pointer;
+}
+/*表示写真の初期配置（全部透明に）とtransition設定*/
+#photo1, #photo2, #photo3, #photo4, #photo5 {
+	position: absolute;
+	top:0;
+	margin:5px 5px 0 5px;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease;
+	-moz-transition: opacity 1s ease;
+	-o-transition: opacity 1s ease;
+	transition: opacity 1s ease;
+}
+/* サムネイルがクリックされたら#frame を表示 */
+#r1:checked ~ #frame,#r2:checked ~ #frame,#r3:checked ~ #frame,#r4:checked ~ #frame,#r5:checked ~ #frame {
+	opacity:1;
+	z-index:95;
+}
+/*チェックされたサムネイルに相当する写真だけを表示*/
+#r1:checked ~ #frame #photo1, #r2:checked ~ #frame #photo2, #r3:checked ~ #frame #photo3, #r4:checked ~ #frame #photo4, #r5:checked ~ #frame #photo5 {
+	opacity: 1;
+	z-index:100;
+}
+/* サムネイルがクリックされたら#darkscreen を表示 */
+#r1:checked ~ label #darkscreen,#r2:checked ~ label #darkscreen,#r3:checked ~ label #darkscreen,#r4:checked ~ label #darkscreen,#r5:checked ~ label #darkscreen {
+	opacity:0.6;
+	z-index:90;
+}
+/* #frame */
+#frame {
+	position:fixed !important;
+	position:absolute;
+	background:#fff;
+	width:310px;
+	height:440px;
+	left:50%;
+	top:50%;
+	margin-left:-155px;
+	margin-top:-200px;
+	opacity:0;
+	z-index:-11;
+}
+
+/* 閉じるボタン */
+#close_btn label {
+	position:absolute;
+	left:128px;
+	top:408px;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+/*写真表示時の画面遮蔽スクリーン*/
+#darkscreen {
+	position:fixed !important;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	background:#000;
+	opacity:0;
+	z-index:-5;
+}

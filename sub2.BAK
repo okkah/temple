@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>秋篠寺</title>
+<meta name="description" content="秋篠寺の魅力" />
+<meta name="keywords" content="秋篠寺,伝伎芸天立像,伝帝釈天立像,伝梵天立像" />
+<link href="css/temple21.css" rel="stylesheet" type="text/css" />
+<meta name="author" content="Hideaki Okamoto">
+<meta name="copyright" content="Hideaki Okamoto">
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="header">
+<h1><a href="index.html">Web/XML演習 15x3026 岡本秀明</a></h1>
+<p id="logo"><a href="index.html"><img src="images/logo.png" alt="" width="130" height="59" /></a></p>
+</div>
+<!--/header-->
+
+<div id="mainimg">
+<img src="images/img_02.jpg" alt="伝帝釈天立像" width="1000" height="150" />
+<ul id="menu">
+<li><a href="index.html"><img src="images/menu_top.png" alt="TOP" name="Image4" width="230" height="54" id="Image4" onmouseover="MM_swapImage('Image4','','images/menu_on_top.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub1.html"><img src="images/menu_01.png" alt="伝伎芸天立像" name="Image1" width="230" height="54" id="Image1" onmouseover="MM_swapImage('Image1','','images/menu_on_01.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub2.html"><img src="images/menu_on_02.png" alt="伝帝釈天立像" name="Image2" width="230" height="54" id="Image2" onmouseover="MM_swapImage('Image2','','images/menu_on_02.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+<li><a href="sub3.html"><img src="images/menu_03.png" alt="伝梵天立像" name="Image3" width="230" height="54" id="Image3" onmouseover="MM_swapImage('Image3','','images/menu_on_03.png',0)" onmouseout="MM_swapImgRestore()" /></a></li>
+</ul>
+</div>
+
+<div id="contents">
+
+<div id="link">
+<div class="box1 mb1em">
+<h3>Link</h3>
+<ul class="submenu">
+<table class="infobox" style="width:22em; width:250px">
+<nav>
+<li><a href="../temple01/index.html">東大寺南大門・大仏殿</a></li>
+<li><a href="../temple02/index.html">東大寺・法華堂</a></li>
+<li><a href="../temple03/index.html">東大寺・戒壇堂ほか</a></li>
+<li><a href="../temple04/index.html">興福寺・国宝館</a></li>
+<li><a href="../temple05/index.html">興福寺・北円堂</a></li>
+<li><a href="../temple06/index.html">興福寺・東金堂</a></li>
+<li><a href="../temple07/index.html">興福寺・南円堂</a></li>
+<li><a href="../temple08/index.html">新薬師寺</a></li>
+<li><a href="../temple09/index.html">薬師寺</a></li>
+<li><a href="../temple10/index.html">唐招提寺・金堂</a></li>
+<li><a href="../temple11/index.html">唐招提寺・御影堂ほか</a></li>
+<li><a href="../temple12/index.html">法隆寺・金堂</a></li>
+<li><a href="../temple13/index.html">法隆寺・講堂ほか</a></li>
+<li><a href="../temple14/index.html">法隆寺・大宝蔵殿</a></li>
+<li><a href="../temple15/index.html">法隆寺・夢殿ほか</a></li>
+<li><a href="../temple17/index.html">白毫寺</a></li>
+<li><a href="../temple18/index.html">大安寺</a></li>
+<li><a href="../temple19/index.html">円照寺・法華寺</a></li>
+<li><a href="../temple20/index.html">西大寺</a></li>
+<li><a href="../temple21/index.html">秋篠寺</a></li>
+</nav>
+</table>
+</ul>
+</div>
+<!--/box1-->
+
+</div>
+<!--/link-->
+
+<div id="main2">
+<h2>伝帝釈天立像</h2>
+<p>　釈迦の誕生の際に、生まれたとされる仏様です。梵天と少し似ていますが、帝釈天は「金剛杵/こんごうしょ（伐折羅/ばさら）」を手に持っています。<br>
+
+　<br>　帝釈天は６つも牙のある白い像に乗っています。帝釈天のもとになったのは、雷を操る武神、インドラです。帝釈天がよろいを着ていることが多いのは、インドラが、戦いの神だったからです。<br>
+
+　<br>　帝釈天は、須弥山の頂に存在すると言われる「とうりてん」と言われる世界の「善見城（ぜんけんじょう）」の城主であり、このお城の主でもあります。<br>
+
+　<br>　一説では、帝釈天が、「インドラ」と同一の仏様と云われております。<br><br></p>
+
+<input type="radio" id="r1" name="gal">
+<input type="radio" id="r2" name="gal">
+<input type="radio" id="r3" name="gal">
+<input type="radio" id="r4" name="gal">
+<input type="radio" id="r5" name="gal">
+<input type="radio" id="r6" name="gal">
+<input type="radio" id="r7" name="gal">
+<div id="thumbs">
+  <label for="r1"><img src="images/main3_1.jpg" width="100" height="130"></label>
+  <label for="r2"><img src="images/main3_2.jpg" width="100" height="130"></label>
+  <label for="r3"><img src="images/main3_3.jpg" width="100" height="130"></label>
+  <label for="r4"><img src="images/main3_4.jpg" width="100" height="130"></label>
+  <label for="r5"><img src="images/main3_5.jpg" width="100" height="130"></label>
+</div>
+<div id="frame">
+<div id="photo1"><img src="images/main3_1.jpg" width="300" height="400"></div>
+<div id="photo2"><img src="images/main3_2.jpg" width="300" height="400"></div>
+<div id="photo3"><img src="images/main3_3.jpg" width="300" height="400"></div>
+<div id="photo4"><img src="images/main3_4.jpg" width="300" height="400"></div>
+<div id="photo5"><img src="images/main3_5.jpg" width="300" height="400"></div>
+<div id="close_btn"><label for="r6">X 閉じる</label></div>  </div>
+<label for="r7"><div id="darkscreen"></div></label>
+
+</div>
+<!--/main2-->
+
+<p id="pagetop"><a href="#container"><img src="images/pagetop.gif" width="140" height="30" alt="ページの上部へ" /></a></p
+
+<!--/contents-->
+
+</div>
+<!--/container-->
+
+<div id="footer">
+Copyright&copy; 2016 Hideaki Okamoto All Rights Reserved.<br />
+</div>
+<!--/footer-->
+
+</body>
+</html>
